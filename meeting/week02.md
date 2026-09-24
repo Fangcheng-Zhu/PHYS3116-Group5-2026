@@ -7,8 +7,8 @@ Chair: Dingshuo Xu
 Note taker: Fangcheng Zhu; Yucheng Qian
 
 ## Attendance
--Fangcheng ZHu
--
+-Fangcheng Zhu
+-Dingshuo Xu
 -
 
 ##Agenda
