@@ -9,7 +9,7 @@ Note taker: Fangcheng Zhu; Yucheng Qian
 ## Attendance
 -Fangcheng Zhu
 -Dingshuo Xu
--
+-Yucheng Qian
 
 ##Agenda
 1.Confirm The three stage project workflow.
