@@ -1,0 +1,5 @@
+table,file,rows,columns
+gama,InputCatGAMADR3.csv,5536,21
+clusters,samiDR3InputCatClusters.csv,1433,20
+kinematics,samiDR3StelKin.csv,3426,44
+morphology,samiDR3VisualMorphology.csv,3068,2
