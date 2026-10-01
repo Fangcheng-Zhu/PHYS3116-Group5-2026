@@ -6,7 +6,7 @@ Take notes: Fangcheng Zhu
 #Attendence:
 -Fangcheng Zhu
 -Dingshuo Xu
--
+-Yucheng Qian
 
 ## Meeting goals
 -Review the part 1 work
