@@ -5,7 +5,7 @@ Take notes: Fangcheng Zhu
 
 #Attendence:
 -Fangcheng Zhu
--
+-Dingshuo Xu
 -
 
 ## Meeting goals
