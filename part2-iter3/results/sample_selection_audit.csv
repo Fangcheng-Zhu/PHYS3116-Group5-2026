@@ -1,0 +1,7 @@
+step,observations,unique_galaxies
+All merged observations,3426,3068
+Valid photometric inputs,2249,2249
+BAD_CLASS equals zero,2236,2236
+Early-type morphology,779,779
+One observation per early-type galaxy,779,779
+Strict elliptical sample,230,230

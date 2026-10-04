@@ -1,0 +1,12 @@
+check,pass_count,fail_count,pass_percent
+Main catalogue matched,3354,72,97.9
+Morphology matched,3426,0,100.0
+Finite m_r,3326,100,97.08
+Finite mstar,3354,72,97.9
+Finite sigma_re,2251,1175,65.7
+Finite sigma_re_err,2251,1175,65.7
+Positive sigma_re,2251,1175,65.7
+Non-negative sigma_re_err,2251,1175,65.7
+Valid stellar kinematics,2251,1175,65.7
+Valid photometric inputs,2249,1177,65.65
+Valid stellar-mass inputs,2250,1176,65.67
