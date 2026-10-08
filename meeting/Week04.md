@@ -3,7 +3,7 @@
 -Project:SAMI Faber-Jackson Relation
 # Attandence:
 -Fangcheng Zhu
--
+-Dingshuo Xu
 -
 ## Current project stage
 Part 1 and Part 2 have been completed. The group has now moved to part 3:fitting the Faber-Jackson relation and comparing the result with published studies.
