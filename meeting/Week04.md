@@ -9,7 +9,7 @@
 Part 1 and Part 2 have been completed. The group has now moved to part 3:fitting the Faber-Jackson relation and comparing the result with published studies.
 ## Meeting Goals
 -confirm the final galaxy samples from part 2:
--select the luminosity and velocity-dispersion meansurements;
+-select the magnitude and velocity-dispersion meansurements;
 -decide how to treat missing values, repeated observation, and outliers;
 -fit the Faber-Jackson relation;
 -produce the main plots and fitting results;
