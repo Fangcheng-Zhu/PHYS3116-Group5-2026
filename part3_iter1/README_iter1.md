@@ -18,8 +18,8 @@ The elliptical sample is a subset of the early-type sample. This iteration is us
 
 The script uses:
 
-- `part2-iter3/results/elliptical_sample.csv`
-- `part2-iter3/results/early_type_sample.csv`
+- `results/part2-iter3/elliptical_sample.csv`
+- `results/part2-iter3/early_type_sample.csv`
 
 ## Run
 
