@@ -5,7 +5,7 @@
 # Attendance
 - Fangcheng Zhu
 - Yucheng Qian
--
+- Dingshuo Xu
 
 ## Meeting Agenda
 1.Check the progress of Part 3
