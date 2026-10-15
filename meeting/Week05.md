@@ -4,7 +4,7 @@
 
 # Attendance
 - Fangcheng Zhu
--
+- Yucheng Qian
 -
 
 ## Meeting Agenda
