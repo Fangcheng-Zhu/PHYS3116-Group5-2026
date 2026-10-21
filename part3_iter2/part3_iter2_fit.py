@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DATA_DIR = Path("results/part2-iter3")
+DATA_DIR = Path(__file__).resolve().parents[1] / "part2-iter3" / "results"
 
 
 def load_sample(csv_path: Path, sample_name: str) -> pd.DataFrame:
