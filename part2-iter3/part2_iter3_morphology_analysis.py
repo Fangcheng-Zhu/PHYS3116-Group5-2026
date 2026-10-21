@@ -593,13 +593,13 @@ def main() -> None:
     parser.add_argument(
         "--input",
         type=Path,
-        default=Path("results") / "sami_merged_observations.csv",
+        default=Path(__file__).resolve().parents[1] / "part1-iter3" / "results" / "sami_merged_observations.csv",
     )
 
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("results") / "part2-iter3",
+        default=Path(__file__).resolve().parent / "results",
     )
 
     args = parser.parse_args()
