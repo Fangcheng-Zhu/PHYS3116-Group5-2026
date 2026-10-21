@@ -35,3 +35,4 @@ From the repository root:
 
 ```powershell
 python part2-iter2/part2_iter2_sample_selection.py --input part1-iter3/results/sami_merged_observations.csv --output-dir part2-iter2/results
+```
