@@ -32,3 +32,14 @@ reduced to one row per galaxy.
 
 The figures compare the number and distribution of galaxies in different
 morphology groups. The formal Faber-Jackson fitting is left for Part 3.
+
+## Run
+
+From the repository root:
+
+```bash
+python part2-iter3/part2_iter3_morphology_analysis.py
+```
+
+The script reads `part1-iter3/results/sami_merged_observations.csv`
+and writes its tables and figures to `part2-iter3/results/`.
