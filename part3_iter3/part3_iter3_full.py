@@ -12,8 +12,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DATA_DIR = Path("results/part2-iter3")
-OUT_DIR = Path("results") / "part3-fitting results"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = PROJECT_ROOT / "part2-iter3" / "results"
+OUT_DIR = Path(__file__).resolve().parent / "part3-fitting results"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -94,12 +95,16 @@ def fit_sample(csv_path: Path, sample_name: str) -> dict:
     }
 
 
-results = [
-    fit_sample(DATA_DIR / "elliptical_sample.csv", "Elliptical"),
-    fit_sample(DATA_DIR / "early_type_sample.csv", "Early type"),
-]
+def main() -> None:
+    results = [
+        fit_sample(DATA_DIR / "elliptical_sample.csv", "Elliptical"),
+        fit_sample(DATA_DIR / "early_type_sample.csv", "Early type"),
+    ]
 
-summary = pd.DataFrame(results)
-print(summary.to_string(index=False))
-summary.to_csv(OUT_DIR / "fit_summary.csv", index=False)
-print(f"\nSaved outputs to: {OUT_DIR.resolve()}")
+    summary = pd.DataFrame(results)
+    print(summary.to_string(index=False))
+    summary.to_csv(OUT_DIR / "fit_summary.csv", index=False)
+    print(f"\nSaved outputs to: {OUT_DIR.resolve()}")
+
+if __name__ == "__main__":
+    main()
