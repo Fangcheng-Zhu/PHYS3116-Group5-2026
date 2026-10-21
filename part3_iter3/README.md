@@ -28,10 +28,10 @@ python3 part3_iter3/part3_iter3_full.py
 ## Outputs
 
 ```text
-results/part3-fitting results/
-elliptical_fit.png
-early_type_fit.png
-fit_summary.csv
+part3_iter3/part3-fitting results/
+  elliptical_fit.png
+  early_type_fit.png
+  fit_summary.csv
 ```
 
 The current fit is ordinary unweighted least squares. `cov=True` supplies an estimate of the covariance matrix of the fitted coefficients. Observational uncertainties are NOT supplied. 
