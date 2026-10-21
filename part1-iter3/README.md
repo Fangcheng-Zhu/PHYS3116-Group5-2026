@@ -18,7 +18,7 @@ Run from the repository root:
 python3 part1-iter3/part1_iter3_full.py --data-dir row-data
 ```
 
-The script creates `part1-iter3/results/` when run. Generated results are intentionally not included in the repository.
+The script writes its outputs to `part1-iter3/results/`. The current results are included in the repository; rerunning the script regenerates them.
 
 ## Handoff
 Part 1 is now complete. The four Option 2 catalogues have been cleaned,
