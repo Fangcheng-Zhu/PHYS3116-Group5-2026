@@ -21,7 +21,7 @@ The fitted slope and intercept are used to draw the line, it is intended to chec
 Run the script from the repository root:
 
 ```bash
-python3 part3-iter2/part3_iter2_fit.py
+python3 part3_iter2/part3_iter2_fit.py
 ```
 
 ## Next step
