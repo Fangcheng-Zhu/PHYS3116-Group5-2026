@@ -12,7 +12,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DATA_DIR = Path("results/part2-iter3")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = PROJECT_ROOT / "part2-iter3" / "results"
+OUTPUT_DIR = Path(__file__).resolve().parent / "results"
 
 
 def load_sample(csv_path: Path, sample_name: str) -> pd.DataFrame:
@@ -43,15 +45,25 @@ def plot_scatter(df: pd.DataFrame, sample_name: str) -> None:
     ax.legend()
     fig.tight_layout()
 
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    safe_name = sample_name.lower().replace(" ", "_")
+    fig.savefig(OUTPUT_DIR / f"{safe_name}_scatter.png", dpi=200)
+    plt.close(fig)
 
-samples = {
-    "Elliptical": DATA_DIR / "elliptical_sample.csv",
-    "Early type": DATA_DIR / "early_type_sample.csv",
-}
 
-for sample_name, csv_path in samples.items():
-    df = load_sample(csv_path, sample_name)
-    print(f"{sample_name}: {len(df)} usable galaxies")
-    plot_scatter(df, sample_name)
+def main() -> None:
+    samples = {
+        "Elliptical": DATA_DIR / "elliptical_sample.csv",
+        "Early type": DATA_DIR / "early_type_sample.csv",
+    }
 
-plt.show()
+    for sample_name, csv_path in samples.items():
+        df = load_sample(csv_path, sample_name)
+        print(f"{sample_name}: {len(df)} usable galaxies")
+        plot_scatter(df, sample_name)
+
+    print(f"Plots saved to: {OUTPUT_DIR.resolve()}")
+
+
+if __name__ == "__main__":
+    main()

@@ -10,7 +10,8 @@ The script:
 - converts `m_r` and `sigma_re` to numeric values;
 - removes rows with missing or invalid values;
 - calculates `log10(sigma_re)`;
-- plots  `m_r` against `log10(sigma_re)`;
+- plots `m_r` against `log10(sigma_re)`;
+- saves the two scatter plots in `part3_iter1/results/`.
 
 The elliptical sample is a subset of the early-type sample. This iteration is used for an initial visual check only. The formal fitting and quantitative comparison will be completed in later iterations.
 
@@ -26,9 +27,8 @@ The script uses:
 Run the script from the repository root:
 
 ```bash
-python3 part3-iter1/part3_iter1_scatter.py
+python3 part3_iter1/part3_iter1_scatter.py
 ```
-
 
 ## Next step
 
