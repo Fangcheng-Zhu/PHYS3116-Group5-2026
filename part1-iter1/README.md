@@ -21,7 +21,7 @@ Run from the repository root:
 python3 part1-iter1/part1_iter1_cleaning.py --data-dir row-data
 ```
 
-The script creates `part1-iter1/results/` when run. Generated results are intentionally not included in the repository.
+The script writes its outputs to `part1-iter1/results/`. The current results are included in the repository; rerunning the script regenerates them.
 
 ## Handoff to Iter 2
 Iteration 1 is complete. The four Option 2 CSV files have been loaded,
