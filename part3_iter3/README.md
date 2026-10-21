@@ -14,15 +14,15 @@ The script:
 - estimates the standard errors of the fitted slope and intercept from the fit covariance matrix;
 - calculates the power-law index, `gamma` and its uncertainty;
 - calculates RMS residual;
-- plots the scatter points together with the fitted line for each sample, and show the uncertainties in parameters;
-- saves the plots and a summary table.
+- plots the scatter points and fitted line for each sample, with the slope, intercept, and RMS residual shown on each figure;
+- saves the fitted parameters and their standard errors in a summary table;
 
 ## Run
 
 Run the script from the repository root:
 
 ```bash
-python3 part3-iter3/part3_iter3_full.py
+python3 part3_iter3/part3_iter3_full.py
 ```
 
 ## Outputs
