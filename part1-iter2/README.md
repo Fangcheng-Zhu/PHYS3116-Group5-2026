@@ -19,7 +19,7 @@ Run from the repository root:
 python3 part1-iter2/part1_iter2_cleaning_merging.py --data-dir row-data
 ```
 
-The script creates `part1-iter2/results/` when run. Generated results are intentionally not included in the repository.
+The script writes its outputs to `part1-iter2/results/`. The current results are included in the repository; rerunning the script regenerates them.
 
 ## Handoff to Iter 3
 Iteration 2 is complete. The four Option 2 catalogues have been cleaned and
