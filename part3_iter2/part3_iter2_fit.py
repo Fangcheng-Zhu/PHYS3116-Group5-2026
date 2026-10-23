@@ -13,7 +13,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "part2-iter3" / "results"
-
+OUTPUT_DIR = Path(__file__).resolve().parent / "results"
 
 def load_sample(csv_path: Path, sample_name: str) -> pd.DataFrame:
     df = pd.read_csv(csv_path)
@@ -58,6 +58,10 @@ def plot_fit(df: pd.DataFrame, sample_name: str) -> None:
     )
     ax.legend()
     fig.tight_layout()
+    
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    filename = sample_name.lower().replace(" ", "_") + "_fit.png"
+    fig.savefig(OUTPUT_DIR / filename, dpi=200)
 
 
 samples = {
