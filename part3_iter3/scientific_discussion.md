@@ -2,7 +2,7 @@
 
 ## Research questions and method
 
-We examine whether brighter early-type galaxies have higher stellar velocity dispersions in the supplied SAMI data, and compare a strict elliptical sample with a broader early-type sample. The analysis uses absolute r-band magnitude, `m_r`, and the stellar velocity-dispersion column `sigma_re`, expressed in km/s.
+We examine whether brighter early-type galaxies have higher stellar velocity dispersions in the supplied SAMI data, compare a strict elliptical sample with a broader early-type sample, and compare our fitted relation with published results. The analysis uses absolute r-band magnitude, `m_r`, and the stellar velocity-dispersion column `sigma_re`, expressed in km/s.
 
 We fit
 
@@ -51,7 +51,7 @@ Values are rounded from [`fit_summary.csv`](./part3-fitting%20results/fit_summar
 
 Both samples show the expected brightness trend. The residual scatter indicates that luminosity is not described exactly by a single straight line in this projection. The smaller RMS in the broader sample is descriptive and does not prove that this sample is physically more uniform.
 
-The two gamma estimates are close. However, comparing a sample with its subset does not provide an independent test of morphology. These fits alone cannot establish that adding S0 and intermediate galaxies has no effect, or identify a causal effect of morphology.
+The two gamma estimates are close. However, comparing a sample with its subset does not provide an independent test of morphology. These fits alone cannot establish that including elliptical/S0 and S0 galaxies alongside ellipticals has no effect, or identify a causal effect of morphology.
 
 ## Comparison with published work
 
